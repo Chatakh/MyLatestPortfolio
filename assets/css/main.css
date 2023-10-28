@@ -4702,4 +4702,15 @@ input, select, textarea {
     width: 30%;
     border-radius: 5%;
 	}
-a.bt:hover{background-color: #333;color#fff;}
+a.bt:hover{
+	background-color: #333;
+	color#fff;
+}
+.email{
+	font-size: 0.8rem;
+	font-weight:normal; 
+	text-transform: lowercase;
+}
+.email:hover{
+	color: dodgerblue;
+}
