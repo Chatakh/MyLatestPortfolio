@@ -1,4 +1,4 @@
-@import url(fontawesome-all.min.css);
+ @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
 
 
@@ -4693,24 +4693,33 @@ input, select, textarea {
 	#icon{color: dodgerblue;}
 	#icon:hover{color:dodgerblue;}
 
-	#icon-2:hover{color: #000;}
-	a.bt{
-		float: right;
-    padding: 2px;
-    margin-top: 39%;
-    border: 1px solid #333;
-    width: 30%;
-    border-radius: 5%;
+	#icon-2:hover{
+		color: #000;
 	}
-a.bt:hover{
-	background-color: #333;
-	color#fff;
-}
-.email{
-	font-size: 0.8rem;
-	font-weight:normal; 
-	text-transform: lowercase;
-}
-.email:hover{
-	color: dodgerblue;
-}
+
+	a.bt{
+	     float: right;
+             padding: 2px;
+             margin-top: 39%;
+             border: 1px solid #333;
+             width: 30%;
+             border-radius: 5%;
+	     transition: width 2s;
+	}
+
+       a.bt:hover{
+	     background-color: #333;
+	     color#fff;
+	     width:39%;
+       }
+
+      .email{
+	    font-size: 0.8rem;
+	    font-weight:normal; 
+	    text-transform: lowercase;
+      }
+
+      .email:hover{
+	   color: dodgerblue;
+	   font-size:1rem;
+      }
