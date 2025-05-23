@@ -274,7 +274,8 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: -12rem;
+    margin-bottom: -10rem;
+    padding-top: 2rem;
   }
   
   .team .row .card{
