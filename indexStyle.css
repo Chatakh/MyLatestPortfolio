@@ -198,12 +198,16 @@
     margin-bottom: 1%;
 
   }
-  
+ 
   .projects .row{
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding:0 4rem;
+  }
+ .projects .row .content{
+    text-align-last: left;
+    margin-top: 5%;
   }
   
   .projects .row .image img{
@@ -245,24 +249,6 @@
     width:60rem;
     background:var(--color);
     top:-10rem; right:-10rem;
-  }
-.container .row .colText h3{
-    font-size: 3rem;
-    color: var(--color);
-  }
-  .container .row .colText h3 .fas{
-    font-size: 3rem;
-    color: var(--color);
-  }
-  .colText{
-    padding-top: 2%;
-    text-align: left;
-    font-size: 1.2rem;
-    line-height: 2;
-  }
-  .col-4{
-    margin-left: 3%;
-    margin-right: 3%;
   }
 
   /*team*/
