@@ -252,6 +252,25 @@
     top:-10rem; right:-10rem;
   }
 
+/*project container*/
+  .container .row .colText h3{
+    font-size: 3rem;
+    color: var(--color);
+  }
+  .container .row .colText h3 .fas{
+    font-size: 3rem;
+    color: var(--color);
+  }
+  .colText{
+    padding-top: 2%;
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 2;
+  }
+  .col-4{
+    margin-left: 3%;
+    margin-right: 3%;
+  }
   /*team*/
   .team{
     min-height: 100vh;
