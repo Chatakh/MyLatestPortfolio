@@ -206,14 +206,9 @@
     padding:0 4rem;
   }
   
-  .projects .row .content{
-    text-align-last: left;
-    margin-top: 5%;
-  }
-  
   .projects .row .image img{
     width: 30vw;
-    border-radius: 5%;    /*50%*/
+    border-radius: 5%;   
     padding: 2%;
   }
   
@@ -250,6 +245,24 @@
     width:60rem;
     background:var(--color);
     top:-10rem; right:-10rem;
+  }
+.container .row .colText h3{
+    font-size: 3rem;
+    color: var(--color);
+  }
+  .container .row .colText h3 .fas{
+    font-size: 3rem;
+    color: var(--color);
+  }
+  .colText{
+    padding-top: 2%;
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 2;
+  }
+  .col-4{
+    margin-left: 3%;
+    margin-right: 3%;
   }
 
   /*team*/
@@ -410,48 +423,3 @@
     }
 }
 
-/*Responsive*/
-/*@media screen and (max-width: 1680px) {
-
-  html {
-    font-size: 12pt;
-  }
-}
-@media screen and (max-width: 1280px) {
- 
-}
-@media (max-width: 1024px) {
-  
-}
-@media screen and (max-width: 980px) {
-
-  
-}
-@media (max-width: 768px) {
-  #projects {
-    margin-top: 15%;
-}
-}
-@media screen and (max-width: 736px) {
-
-}
-@media screen and (max-width: 480px) {
-  html, body {
-    min-width: 320px;
-  }
-  #projects {
-    margin-top: 20%;
-}
-
-}
-@media screen and (max-width: 360px) {
-
-  html {
-    
-  }
-  .projects .row{padding-top: 2rem;}
-  
-}
-@media (max-width: 320px) {
-}
-*/
