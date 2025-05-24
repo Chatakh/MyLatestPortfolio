@@ -66,9 +66,7 @@
     padding: 1.5rem 0;
     margin-bottom: 1%;
   }
-  nav:hover{
-   background: #0055a5;
-  }
+  
   nav ul {
     display: flex;
     justify-content: center;
@@ -98,6 +96,9 @@
 .fa, .far, .fas {
     font-family: "Font Awesome 5 Free";
     color: #003366;
+}
+.fa, .far, .fas:hover{
+  color: blue;
 }
   .about{
   min-height: 100vh;
