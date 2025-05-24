@@ -63,7 +63,7 @@
   
   /* Navigation */
   nav {
-    background: #003366;;
+    background: #003366;
     padding: 1.5rem 0;
     margin-bottom: 1%;
   }
@@ -96,7 +96,7 @@
 
 .fa, .far, .fas {
     font-family: "Font Awesome 5 Free";
-    color: #0455a5;
+    color: #003366;
 }
   .about{
   min-height: 100vh;
@@ -412,7 +412,7 @@
   }
   .bt{
     width: 10%;
-    color:#fff;
+    color:#003366;
     text-align: center;
     padding: 1%;
     border: 1px solid #003366;
