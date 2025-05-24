@@ -422,7 +422,7 @@
     font-size: 14px;
   }
   .heading{padding-top: 8rem;}
-  
+  .email{font-size:10px;}
 
 /* Animations */
 @keyframes fadeIn {
