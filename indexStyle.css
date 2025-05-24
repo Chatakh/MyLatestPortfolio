@@ -38,6 +38,7 @@
   h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
+    color:#003366;
   }
   
   p {
@@ -48,7 +49,7 @@
     display: inline-block;
     margin-top: 1.5rem;
     padding: 0.7rem 1.5rem;
-    background:#0055a5;
+    background:#003366;;
     color: white;
     text-decoration: none;
     border-radius: 30px;
@@ -57,12 +58,12 @@
   }
   
   .btn:hover {
-    background: #44b5db;
+    background: #0055a5;
   }
   
   /* Navigation */
   nav {
-    background: #0055a5;
+    background: #003366;;
     padding: 1.5rem 0;
     margin-bottom: 1%;
   }
@@ -218,7 +219,7 @@
   
   .projects .row .image img{
     width: 30vw;
-    border-radius: 5%;    /*50%*/
+    border-radius: 5%;    
     padding: 2%;
   }
   
@@ -257,7 +258,7 @@
     top:-10rem; right:-10rem;
   }
 
-/*project container*/
+
   .container .row .colText h3{
     font-size: 3rem;
     color: var(--color);
@@ -378,7 +379,7 @@
  
 /*Contact*/
 #contact{
-  margin-top: 10%;
+  margin-top: 7%;
 }
 .contact{
     min-height: 50vh;
@@ -411,7 +412,7 @@
   }
   .bt{
     width: 10%;
-    color:#003366;
+    color:#fff;
     text-align: center;
     padding: 1%;
     border: 1px solid #003366;
@@ -437,11 +438,5 @@
       opacity: 1;
     }
 }
-
-
   
-
-
-  .projects .row{padding-top: 2rem;}
   
-}
