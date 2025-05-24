@@ -30,11 +30,6 @@
     animation: fadeIn 2s ease-in-out;
   }
   
-  .animate-text {
-    opacity: 0;
-    animation: slideIn 1.5s forwards;
-  }
-  
   h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
@@ -44,7 +39,12 @@
   p {
     font-size: 1.2rem;
   }
-  
+
+ .animate-text {
+    opacity: 0;
+    animation: slideIn 1.5s forwards;
+    color:#fff;
+  }
   .btn {
     display: inline-block;
     margin-top: 1.5rem;
